@@ -1,0 +1,50 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b0e0e6; /* Denim */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .knock-knock {
+    font-size: 3em;
+    color: #fa8072; /* Salmon */
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fa8072; /* Salmon */
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff4500; /* Darker Salmon on hover */
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+  }
+  
+  .quote {
+    font-style: italic;
+  }
+  
