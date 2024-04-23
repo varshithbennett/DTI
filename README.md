@@ -13,13 +13,13 @@ Welcome to the Knock-Knock App repository! This app revolutionizes intra-campus 
 
 - React Native for cross-platform mobile app development.
 - Node.js for backend logic and API integrations.
-- MongoDB for data storage and management.
+- MySQL for data storage and management.
 - Google Maps API for location-based services and tracking.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/yourusername/knock-knock-app.git`
-2. Navigate to the project directory: `cd knock-knock-app`
+1. Clone the repository: `git clone https://github.com/varshithbennett/DTI.git`
+2. Navigate to the project directory: `cd DTI`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 
