@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/colors.css') }}">
+  </head>
+  <body class="bg-peacock-blue text-white pb-20">
+    <a href="/" style="position: absolute; top: 0; left: 0; font-size: 24px; font-weight: bold;">KnockKnock</a>
+    <div class="min-h-screen flex flex-col items-center justify-center">
+      <h1 class="text-4xl font-bold mb-8">Parcel</h1>
+      <form action="/parcel_success" method="post" class="w-full max-w-lg">
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full px-3">
+            <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="name">Name on Parcel</label>
+            <input class="input-field" type="text" id="name" name="name" required>
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full px-3">
+            <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="location">Select delivery location</label>
+            <div class="relative">
+              <select class="dropdown-list" id="location" name="location">
+                <option value="Main Gate">Main Gate</option>
+                <option value="N Block">N Block</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full px-3">
+            <button class="proceed-button" type="submit">
+              Proceed
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- Footer removed as per request -->
+  </body>
+</html>

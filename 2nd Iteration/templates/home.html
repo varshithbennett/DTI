@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body class="bg-peacock-blue">
+    <div class="min-h-screen flex flex-col justify-center items-center pb-20">
+      <a href="/" style="position: absolute; top: 0; left: 0; font-size: 24px; font-weight: bold;">KnockKnock</a>
+      <h1 class="text-5xl font-bold mb-4 text-white" style="align-self: flex-start;">The college companion you needed.</h1>
+      <p class="text-lg text-white mb-8" style="text-align: center;">Your one-stop solution for parcel and food delivery services.</p>
+      <div class="flex flex-row gap-4" style="justify-content: center;">
+        <a href="/receive" class="btn" style="padding: 30px; font-size: 20px; width: 200px;">Receive<br><span style="font-size: 16px;">Get your package.</span></a>
+        <a href="/deliver" class="btn" style="padding: 30px; font-size: 20px; width: 200px;">Deliver<br><span style="font-size: 16px;">Deliver a package.</span></a>
+      </div>
+    </div>
+  </body>
+</html>
